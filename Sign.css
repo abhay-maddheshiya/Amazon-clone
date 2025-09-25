@@ -1,0 +1,136 @@
+body{
+    margin: 0%;
+    font-family: Arial;
+    border: border-box;
+    border-radius: 5px;
+    font-weight: 100;
+}
+.head{
+    height: 10vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.logo{
+   background-image: url("amazon-logo.png");
+   background-size: cover;
+   color: black;
+   height: 10vmin;
+   width: 20vmin;
+}
+#in{
+    font-size: 3vmin;
+}
+.navSign{
+    width: 80vmin;
+    height: 65vmin;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.navSignIn{
+    height: 65vmin;
+}
+.sign{
+    height: 50vmin;
+    width: 50vmin;
+    border: 1px solid black;
+    border-radius: 2vmin;
+    margin-top: 0%;
+}
+.signIn{
+    margin-left: 3vmin;
+}
+.emailOrNumder{
+   margin-left: 3vmin;
+}
+.readEmailOrNumder{
+    color: #0f1111;
+    font-weight: bold;
+}
+.enterEmailOrNumder{
+    margin-top: 1vmin;
+    height: 2.9vmin;
+    width: 44vmin;
+    border-radius: 1vmin;
+}
+.continuous{
+    height: 5vmin;
+    width: 45vmin;
+    margin-top: 2vmin;
+    margin-left: 3vmin;
+    background-color: rgb(251, 215, 72);
+    border-radius: 100vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.condition{
+    margin-left: 3vmin;
+}
+a{
+    color: #007185;
+}
+.help{
+    margin-left: 3vmin;
+}
+#firstHr{
+    margin: 3vmin;
+}
+.seller{
+    margin-left: 3vmin;
+}
+.worker{
+    font-weight: bold;
+}
+.Business{
+    text-decoration: none;
+}
+#secondHr{
+    margin-top: 4vmin;
+    border: none;
+    border-top: .01rem solid;
+    overflow: visible;
+    text-align: center;
+}    
+#secondHr::after{
+    background: #fff;
+    content: 'New to Amazon?';
+    padding: 0 .1rem;
+    position: relative;
+    top: -10px;
+}
+.newUser{
+    height: 3vmin;
+    border: .01rem solid ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100vmin;
+}
+.createAccount{
+    text-decoration: none;
+}
+.aboutAmazon{
+    margin-top: 3vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.use{
+    text-decoration: none;
+}
+.privacy{
+    text-decoration: none;
+    margin-left: 4vmin;
+}
+.helpSection{
+    text-decoration: none;
+    margin-left: 4vmin;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
